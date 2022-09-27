@@ -1,4 +1,4 @@
-package htw;
+package htw.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,12 +15,9 @@ import java.math.BigDecimal;
 public class CurrencyServiceRequest {
 
 
-        private String from;
-        private String to;
-        private Double quantity;
-
-
-
+    private String from;
+    private String to;
+    private Double quantity;
 
 
     public String getFrom() {
@@ -34,8 +31,6 @@ public class CurrencyServiceRequest {
     public Double getQuantity() {
         return quantity;
     }
-
-
 
 
 }

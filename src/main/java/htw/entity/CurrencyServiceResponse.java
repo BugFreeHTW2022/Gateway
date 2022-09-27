@@ -1,4 +1,4 @@
-package htw;
+package htw.entity;
 
 import java.math.BigDecimal;
 

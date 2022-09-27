@@ -1,4 +1,4 @@
-package htw;
+package htw.entity;
 
 
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package htw;
+package htw.entity;
 
 
 import lombok.AllArgsConstructor;
@@ -19,8 +19,8 @@ public class newProduct {
     String userName;
 
 
-    String convertToMessage(){
-        String message = this.name+","+this.size+","+this.teig+","+this.fill+","+this.glasur+","+this.description+","+this.extras+","+this.userName;
+    public String convertToMessage() {
+        String message = this.name + "," + this.size + "," + this.teig + "," + this.fill + "," + this.glasur + "," + this.description + "," + this.extras + "," + this.userName;
         return message;
     }
 }
